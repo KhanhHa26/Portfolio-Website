@@ -51,7 +51,7 @@ const AboutMe = () => {
             experience and daily life. I love baking👩🏻‍🍳, drawing✏️, gymming🏋️‍♀️,
             and watching figure skating⛸️.
           </p>
-          <div classname="flex flex-row mt-8 justify-start">
+          <div className="flex flex-row mt-8 justify-start">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}

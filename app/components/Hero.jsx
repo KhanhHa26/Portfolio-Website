@@ -18,14 +18,7 @@ const Hero = () => {
             Hello, I am <br />
           </span>
           <TypeAnimation
-            sequence={[
-              "Khanh Ha",
-              1000, // wait 1s before replacing "Khanh Ha" with "Student at Bryn Mawr College"
-              "Student at Bryn Mawr College",
-              1000,
-              "Programmer",
-              1000,
-            ]}
+            sequence={["Khanh Ha", 2000, "Aspiring Programmer", 1000]}
             wrapper="span"
             speed={50}
             repeat={Infinity}
@@ -53,7 +46,14 @@ const Hero = () => {
         className="flex justify-center items-center mt-6 lg:mt-0"
       >
         <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
-          <Image src="/main.png" alt="main image" layout="fill" />
+          <Image
+            src="/main.png"
+            alt="main image"
+            fill
+            sizes="(max-width: 768px) 250px, (max-width: 1200px) 400px, 800px"
+            priority
+            className="object-cover"
+          />
         </div>
       </motion.div>
     </section>
