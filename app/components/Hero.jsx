@@ -18,7 +18,14 @@ const Hero = () => {
             Hello, I am <br />
           </span>
           <TypeAnimation
-            sequence={["Khanh Ha", 2000, "Aspiring Programmer", 1000]}
+            sequence={[
+              "Khanh Ha",
+              1000,
+              "Student at Bryn Mawr College",
+              1000,
+              "Aspiring Programmer",
+              1000,
+            ]}
             wrapper="span"
             speed={50}
             repeat={Infinity}
