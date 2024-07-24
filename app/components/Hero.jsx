@@ -20,7 +20,7 @@ const Hero = () => {
           <TypeAnimation
             sequence={[
               "Khanh Ha",
-              1000, // wait 1s before replacing "Khanh Ha" with the next text
+              1000, // wait 1s before replacing "Khanh Ha" with "Student at Bryn Mawr College"
               "Student at Bryn Mawr College",
               1000,
               "Programmer",
@@ -29,7 +29,6 @@ const Hero = () => {
             wrapper="span"
             speed={50}
             repeat={Infinity}
-            className="text-pink-200"
           />
         </h1>
         <div className="py-5">
@@ -47,17 +46,21 @@ const Hero = () => {
           </a>
         </div>
       </motion.div>
-      <div className="flex justify-center items-center mt-6 lg:mt-0">
-        <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        className="flex justify-center items-center mt-6 lg:mt-0"
+      >
+        <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
           <Image
             src="/main.png"
             alt="main image"
-            className="rounded-full"
+            className="object-cover"
             layout="fill"
-            objectFit="cover"
           />
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
