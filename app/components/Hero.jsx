@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
@@ -12,14 +13,14 @@ const Hero = () => {
         transition={{ duration: 0.5 }}
         className="text-center lg:text-left lg:max-w-lg"
       >
-        <h1 className="text-pink-200 mb-8 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+        <h1 className="text-pink-200 mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
           <span className="text-transparent bg-clip-text bg-white">
             Hello, I am <br />
           </span>
           <TypeAnimation
             sequence={[
               "Khanh Ha",
-              1000, // wait 1s before replacing "Mice" with "Hamsters"
+              1000, // wait 1s before replacing "Khanh Ha" with the next text
               "Student at Bryn Mawr College",
               1000,
               "Programmer",
@@ -28,6 +29,7 @@ const Hero = () => {
             wrapper="span"
             speed={50}
             repeat={Infinity}
+            className="text-pink-200"
           />
         </h1>
         <div className="py-5">
