@@ -53,12 +53,7 @@ const Hero = () => {
         className="flex justify-center items-center mt-6 lg:mt-0"
       >
         <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
-          <Image
-            src="/main.png"
-            alt="main image"
-            className="object-cover"
-            layout="fill"
-          />
+          <Image src="/main.png" alt="main image" layout="fill" />
         </div>
       </motion.div>
     </section>
