@@ -5,6 +5,14 @@ import { useRef } from "react";
 
 const projectData = [
   {
+    id: 0,
+    title: "Pantry Tracker",
+    description:
+      "Pantry Tracker is a web application that helps you keep track of your pantry items and suggests recipes based on the ingredients you have. It leverages Firebase for the backend and integrates OpenAI for recipe suggestions.",
+    image: "/pantry-tracker.png",
+    git: "https://github.com/KhanhHa26/Pantry-Tracker",
+  },
+  {
     id: 1,
     title: "Adogtion",
     description:
