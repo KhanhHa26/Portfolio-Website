@@ -6,14 +6,22 @@ import { useRef } from "react";
 const projectData = [
   {
     id: 0,
-    title: "Pantry Tracker",
+    title: "Interview Expert",
     description:
-      "Pantry Tracker is a web application that helps you keep track of your pantry items and suggests recipes based on the ingredients you have. It leverages Firebase for the backend and integrates OpenAI for recipe suggestions.",
-    image: "/pantry-tracker.png",
-    git: "https://github.com/KhanhHa26/Pantry-Tracker",
+      "A platform designed to help college students prepare for real-world interviews with AI-driven mock interviews, code editor practice, and document analysis tools🎓💼",
+    image: "/interview-expert.png",
+    git: "https://github.com/phananhnguyen1204/interview-expert",
   },
   {
     id: 1,
+    title: "MailSwift",
+    description:
+      "An AI-powered Google Chrome extension designed to streamline email management within Gmail. It enhances productivity by automating email composition, generating AI-powered responses, and summarizing lengthy email content.",
+    image: "/mailswift.png",
+    git: "https://github.com/phananhnguyen1204/MailSwift",
+  },
+  {
+    id: 2,
     title: "Adogtion",
     description:
       "Adogtion is a web service designed to connect potential dog adopters with dogs in need of homes. The platform allows users to browse available dogs, post dogs for adoption, and manage the adoption process through an admin panel.",
@@ -21,7 +29,7 @@ const projectData = [
     git: "https://github.com/KhanhHa26/Adogtion",
   },
   {
-    id: 2,
+    id: 3,
     title: "Nourish Net",
     description:
       "At Nourish Net, our journey began with a simple yet powerful belief: every student deserves a fair chance at success. Founded by passionate college women who witnessed firsthand the struggles of fellow students, we've made it our mission to tackle food insecurity head-on.",
@@ -29,7 +37,7 @@ const projectData = [
     git: "https://github.com/maponbie/DEVAS",
   },
   {
-    id: 3,
+    id: 4,
     title: "Athena Bot",
     description:
       "A Discord chat bot that helps Bryn Mawr student retrieve essential and up-to-date information by commands on Bryn Mawr College website without having to search through different menu tabs",
@@ -37,7 +45,7 @@ const projectData = [
     git: "https://github.com/breadrollfort/Athena-Bot",
   },
   {
-    id: 4,
+    id: 5,
     title: "Battle Bug",
     description:
       "Battle Bug is a game in which 4 bugs are coded using Java to compete with each other, while having to avoid the rock, to be the last one surviving. Last bug survive will win the competition",

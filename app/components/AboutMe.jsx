@@ -25,7 +25,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul>
-        <li>Bryn Mawr College, Bryn Mawr, PA - May 2027</li>
+        <li>Bryn Mawr College, Bryn Mawr, PA - May 2026</li>
       </ul>
     ),
   },

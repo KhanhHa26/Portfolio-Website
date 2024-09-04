@@ -19,7 +19,7 @@ const Hero = () => {
           </span>
           <TypeAnimation
             sequence={[
-              "Khanh Ha",
+              "Hannah Nguyen",
               1000,
               "Student at Bryn Mawr College",
               1000,
