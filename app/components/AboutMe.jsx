@@ -12,11 +12,14 @@ const TAB_DATA = [
         <li>React</li>
         <li>TypeScript</li>
         <li>HTML/CSS/JavaScript</li>
+        <li>C/C++</li>
         <li>Java</li>
         <li>Python</li>
         <li>Node.js</li>
+        <li>Next.js</li>
         <li>Express</li>
         <li>MongoDB</li>
+        <li>PostgreSQL</li>
       </ul>
     ),
   },
@@ -25,7 +28,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul>
-        <li>Bryn Mawr College, Bryn Mawr, PA - May 2026</li>
+        <li>Computer Science & Mathematics</li>
+        <li>Bryn Mawr College, Bryn Mawr, PA - May 2027</li>
       </ul>
     ),
   },
