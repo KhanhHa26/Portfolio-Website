@@ -21,5 +21,5 @@ Welcome to my personal portfolio website, built using **Next.js** and styled wit
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Hosting**: [Vercel](https://vercel.com/)
 - **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
-- 
+
 ---
